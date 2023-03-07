@@ -74,30 +74,30 @@ menu .nav-item {
 .button-top-left {
     border-radius: 100% 0 0 0;
     margin: 20px 0 0 20px;
-    background-color: rgb(138, 255, 138);
-    border: thick solid rgb(0, 255, 0);
-}
+    background-color: green;
+    border: thick solid rgb(36, 53, 0);
+  }
   
-.button-top-right {
+  .button-top-right {
     border-radius: 0 100% 0 0;
     margin: 20px 20px 0 0;
-    background-color: rgb(255, 138, 138);
-    border: thick solid rgb(255, 0, 0);
-}
+    background-color: red;
+    border: thick solid rgb(83, 12, 12);
+  }
   
-.button-bottom-left {
+  .button-bottom-left {
     border-radius: 0 0 0 100%;
     margin: 0 0 20px 20px;
-    background-color: rgb(255, 255, 138);
-    border: thick solid rgb(255, 247, 0);
-}
+    background-color: yellow;
+    border: thick solid rgb(94, 90, 10);
+  }
   
-.button-bottom-right {
+  .button-bottom-right {
     border-radius: 0 0 100% 0;
     margin: 0 20px 20px 0;
-    background-color: rgb(138, 138, 255);
-    border: thick solid rgb(38, 0, 255);
-}
+    background-color: blue;
+    border: thick solid rgb(27, 14, 100);
+  }
 
 .controls {
     position: absolute;
