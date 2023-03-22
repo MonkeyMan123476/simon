@@ -178,11 +178,9 @@ class Game {
 const game = new Game();
   
 function delay(milliseconds) {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(true);
-      }, milliseconds);
-    });
+  return new Promise((resolve) => {
+    setTimeout(resolve, milliseconds);
+  });
 }
   
 function loadSound(filename) {
